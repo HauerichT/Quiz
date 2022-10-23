@@ -1,5 +1,6 @@
-public class Main {
-    public static void main(String[] args) {
+public class Test {
+
+    public void test() {
         RechenQuiz quiz = new RechenQuiz();
         quiz.getExercise();
         int result = quiz.getResult();

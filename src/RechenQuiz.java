@@ -14,14 +14,16 @@ public class RechenQuiz {
         operand2 = operandMin + (int)(Math.random() * ((operandMax - operandMin) + operandMin));
         operator =  1 + (int)(Math.random() * ((3 - 1) + 1));
 
-        if (operator == 1) {
-            result = operand1+operand2;
-        }
-        else if (operator == 2) {
-            result = operand1-operand2;
-        }
-        else if (operator == 3) {
-            result = operand1*operand2;
+        switch (operator) {
+            case 1:
+                result = operand1+operand2;
+                break;
+            case 2:
+                result = operand1-operand2;
+                break;
+            case 3:
+                result = operand1*operand2;
+                break;
         }
     }
     public void getExercise() {

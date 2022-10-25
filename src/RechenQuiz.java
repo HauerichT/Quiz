@@ -5,23 +5,27 @@ public class RechenQuiz {
 
     int operandMin = 1;
     int operandMax = 20;
-    int operator;
+    int operatorNum;
+    private String operator;
 
     int result;
 
     public void createExercise() {
         operand1 = operandMin + (int)(Math.random() * ((operandMax - operandMin) + operandMin));
         operand2 = operandMin + (int)(Math.random() * ((operandMax - operandMin) + operandMin));
-        operator =  1 + (int)(Math.random() * ((3 - 1) + 1));
+        operatorNum =  1 + (int)(Math.random() * ((3 - 1) + 1));
 
-        switch (operator) {
+        switch (operatorNum) {
             case 1:
+                operator = "+";
                 result = operand1+operand2;
                 break;
             case 2:
+                operator = "-";
                 result = operand1-operand2;
                 break;
             case 3:
+                operator = "*";
                 result = operand1*operand2;
                 break;
         }
@@ -30,17 +34,10 @@ public class RechenQuiz {
 
         do {
             createExercise();
-
-            if (result >= 0 && operator == 1) {
-                System.out.println(operand1 + " + " + operand2 + " = ?");
-            }
-            else if (result >= 0 && operator == 2) {
-                System.out.println(operand1 + " - " + operand2 + " = ?");
-            }
-            else if (result >= 0 && operator == 3){
-                System.out.println(operand1 + " * " + operand2 + " = ?");
-            }
         } while (result < 0);
+
+        System.out.println(operand1 + operator + operand2);
+
     }
 
     public int getResult() {

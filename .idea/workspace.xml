@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ecd7c5c-972f-4e6a-94aa-0ffe8058680a" name="Changes" comment="Aktuell">
-      <change beforePath="$PROJECT_DIR$/src/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RechenQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RechenQuiz.java" afterDir="false" />
-    </list>
+    <list default="true" id="5ecd7c5c-972f-4e6a-94aa-0ffe8058680a" name="Changes" comment="Aktuell" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666604090870</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Aktuell">
+      <created>1666864790667</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666864790667</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

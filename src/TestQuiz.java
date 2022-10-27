@@ -1,4 +1,4 @@
-public class Quiz {
+public class TestQuiz {
     public static void main(String[] args) {
         // Initialisierung eines neuen Rechenquiz
         RechenQuiz quiz = new RechenQuiz();

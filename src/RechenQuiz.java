@@ -1,21 +1,21 @@
 public class RechenQuiz {
 
     // Variablen zur Speicherung der Operanden
-    int operand1;
-    int operand2;
+    private int operand1;
+    private int operand2;
 
     // Variablen zur Speicherung des Wertebereichs der Operanden
-    int operandMin = 1;
-    int operandMax = 20;
+    private int operandMin = 1;
+    private int operandMax = 20;
 
     // Variable zur Speicherung des Operator-Indizes
-    int operatorNum;
+    private int operatorNum;
 
     // Variable zur Speicherung des Operators als Zeichen
-    String operator;
+    private String operator;
 
     // Variable zur Speicherung des Ergebnisses
-    int result;
+    private int result;
 
     // Getter-Methode zur Generierung einer zufälligen Rechenaufgabe
     public void getExercise() {
